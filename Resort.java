@@ -1,6 +1,4 @@
 /*
- * Seky Perez Moya 219-5412
- * 
  * Write an abstract superclass encapsulating a vacation: 
  * A vacation has two attributes: a budget and a destination. 
  * It has an abstract method returning by how much the vacation 
