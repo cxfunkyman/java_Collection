@@ -19,17 +19,6 @@ public class IntegerArraylist {
 		ArrayList<Integer> arrInt = new ArrayList<>(10);
 		boolean flag = true;
 		
-//		arrInt.add(1);
-//		arrInt.add(2);
-//		arrInt.add(3);
-//		arrInt.add(4);
-//		arrInt.add(5);
-//		arrInt.add(6);
-//		arrInt.add(7);
-//		arrInt.add(8);
-//		arrInt.add(9);
-//		arrInt.add(10);
-		
 		while (flag) {
 			System.out.println("Do you want to enter a value. 1- Yes, 2- No.");
 			int input = myScanner.nextInt();
