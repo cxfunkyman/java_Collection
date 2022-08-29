@@ -3,8 +3,6 @@ package Exception;
 import java.util.Scanner;
 
 /*
- * Seky Perez Moya 219-5412
- * 
  * Write a program to accept ten strings from the user
  * and keep them in a string array. Strings can be of 
  * any kind (alphabets, numbers, etc.) Try to convert 
