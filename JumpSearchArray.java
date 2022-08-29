@@ -13,19 +13,6 @@ public class JumpSearchArray {
 
 	public static void main(String[] args) {
 		
-		String[] a = {"leo", "sky", "petar", "winston", "alex", "ray", "jean", "basil", "tyler", "emil"};
-		int n = a.length;
-		
-		for (int i = 0; i < a.length; i++) {
-			for (int j = i + 1; j < a.length; j++) {
-				if(a[i].compareToIgnoreCase(a[j]) >= 0) {
-					String temp = a[i];
-					a[i] = a[j];
-					a[j] = temp;
-				}
-			}				
-		}
-
 		while(true) {
 
 			boolean loop1 = false;
@@ -38,25 +25,25 @@ public class JumpSearchArray {
 				int k = myScanner.nextInt();
 
 				if (k == 1) {
-//					System.out.println("\nPlease enter the size of the array: ");
-//					int n = myScanner.nextInt();
-//					int root = (int) Math.sqrt(n);
-//					String[] a = new String[n];
-//					
-//					System.out.println("Enter the values:");
-//					for(int i = 0; i < n; i++) {
-//						System.out.print((i + 1) + "- ");
-//						a[i] = myScanner.next();
-//					}
-//					for (int i = 0; i < a.length; i++) {
-//						for (int j = i + 1; j < a.length; j++) {
-//							if(a[i].compareToIgnoreCase(a[j]) >= 0) {
-//								String temp = a[i];
-//								a[i] = a[j];
-//								a[j] = temp;
-//							}
-//						}				
-//					}					
+					System.out.println("\nPlease enter the size of the array: ");
+					int n = myScanner.nextInt();
+					int root = (int) Math.sqrt(n);
+					String[] a = new String[n];
+					
+					System.out.println("Enter the values:");
+					for(int i = 0; i < n; i++) {
+						System.out.print((i + 1) + "- ");
+						a[i] = myScanner.next();
+					}
+					for (int i = 0; i < a.length; i++) {
+						for (int j = i + 1; j < a.length; j++) {
+							if(a[i].compareToIgnoreCase(a[j]) >= 0) {
+								String temp = a[i];
+								a[i] = a[j];
+								a[j] = temp;
+							}
+						}				
+					}					
 					for(int i = 0; i < a.length; i++) {
 						if(i < a.length - 1)
 							System.out.print(a[i] + ", ");
@@ -117,26 +104,3 @@ public class JumpSearchArray {
 		}
 	}
 }
-
-//public class A {
-//    public static void main(String args[]) {
-//        String arr[] = {"aa","cc","ee","gg","ii","ii","ii","ii","qq","ss",};
-//        String x = "ii";
-//        int n=arr.length,prev,step,f=0,f1=0;
-//        step=(int)Math.sqrt(n);
-//        while(step<n) {
-//            if(arr[step].compareToIgnoreCase(x)>=0) {f=1;break;}
-//            if(step+(int)Math.sqrt(n)<n)step+=(int)Math.sqrt(n);
-//            else {f=2;break;}
-//            }
-//        for(prev=step-(int)Math.sqrt(n);step>=prev && f==1;step--)
-//            if(arr[step].compareToIgnoreCase(x)==0)
-//                {System.out.println("Found on index " + step);f1=1;}
-//
-//        for(prev=step;prev<n && f==2;prev++)
-//            if(arr[prev].compareToIgnoreCase(x)==0)
-//                {System.out.println("Found on index " + prev);f1=1;}
-//
-//        if(f1==0)System.out.println("Not Found");
-//     }
-//}
