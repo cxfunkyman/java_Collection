@@ -1,9 +1,5 @@
 /*
  _________________________________________________
- Assignment (Assignment 1, A - Locker Puzzle Game)
- Written by: Seky Perez Moya / 219-5412
- For Programming Concepts 1 EQ 2 – Fall 2021
- _________________________________________________ 
  Question 1: (locker puzzle game)
  A school has 100 lockers and 100 students. All lockers are closed on the first day of school. 
  As the students enter, the first student, denoted S1, opens every locker. 
