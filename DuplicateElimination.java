@@ -3,11 +3,7 @@ import java.util.Scanner;
 
 /*
  _____________________________________________________
- Assignment (Assignment 1, B - Duplicate Elimination)
- Written by: Seky Perez Moya / 219-5412
- For Programming Concepts 1 EQ 2 – Fall 2021
- _____________________________________________________  
- Question 2: (Duplicate Elimination)
+ Duplicate Elimination
  Use a one-dimensional array to solve the following problem: Write an application that inputs 
  ten numbers, each between 10 and 100, both inclusive. Save each number that was read in an 
  array that was initialized to a value of -1 for all elements. Assume a value of -1 indicates 
