@@ -1,9 +1,5 @@
 package binarytreenode;
 
-/*
- * Seky Emil Perez Moya 219-5412
- */
-
 class Node0 {
 	int data;
 	Node0 left, right;
