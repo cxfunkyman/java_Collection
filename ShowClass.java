@@ -38,38 +38,3 @@ public class ShowClass {
 	}
 
 }
-
-//class Parent{ 
-//    void show() {
-//        System.out.println("I am parent");
-//    }
-//}
-// 
-//class Child1 extends Parent{  
-//    void display() {
-//        System.out.println("hello montreal");
-//    }
-//    void show() {
-//        System.out.println("I am free child one");
-//    }
-//}
-// 
-//class Child2 extends Parent{  
-//    void do_something() {
-//        System.out.println("inside the child class - display method");
-//    }
-//    void show() {
-//        System.out.println("I am free child two");
-//        super.show();
-//    }
-//}
-// 
-//public class A {
-//    public static void main(String[] args) {
-//        Child1 c=new Child1();
-//        //c.display();
-//        c.show();
-//        Child2 c2=new Child2();
-//        c2.show();
-//        }
-//}
