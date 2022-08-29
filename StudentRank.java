@@ -9,8 +9,6 @@ import java.util.Scanner;
  * and show the students’ rank.
  */
 
-
-
 class student {
 	
 	String name;
