@@ -47,20 +47,6 @@ public class PersonDepartment {
 		Persons p[] = new Persons[8];
 		Department pd[] = new Department[4];
 		int j = 0;
-
-//		p[0] = new Persons("Emil", 26, 1);
-//		p[1] = new Persons("Ana", 32, 4);
-//		p[2] = new Persons("Leo", 45, 1);
-//		p[3] = new Persons("Randy", 22, 3);
-//		p[4] = new Persons("Robert", 36, 1);
-//		p[5] = new Persons("Guile", 30, 4);
-//		p[6] = new Persons("Todo", 25, 2);
-//		p[7] = new Persons("Renso", 52, 3);
-//		
-//		pd[0] = new Department("IT", 1);
-//		pd[1] = new Department("Marketing", 2);
-//		pd[2] = new Department("HR", 3);
-//		pd[3] = new Department("Engineer", 4);
 		
 		for(int i = 0; i < p.length; i++) {
 			System.out.println("Name: ");
