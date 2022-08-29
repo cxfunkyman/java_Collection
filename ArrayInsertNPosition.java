@@ -84,25 +84,3 @@ public class ArrayInsertNPosition {
 		}
 	}
 }
-
-//import java.util.Scanner;
-//public class A {//in the middle
-//  public static void main(String[] args) {
-//      Scanner h=new Scanner(System.in);
-//      int a[]=new int[20],i;
-//      System.out.println("How many numbers to enter? ");
-//      int n=h.nextInt();
-//      for(i=0;i<n;i++) {
-//          System.out.print("Enter the " + (i+1) +" number");
-//          a[i]=h.nextInt();
-//          }
-//      for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//      System.out.println("\nWhich number to insert? ");
-//      int m=h.nextInt();
-//      System.out.println("\nWhich position to insert? ");
-//      int p=h.nextInt();
-//      for(i=n;i>p-1;i--)a[i]=a[i-1];
-//      a[p-1]=m;
-//      for(i=0;i<n+1;i++)System.out.print(a[i] + ",");
-//      }
-//}
