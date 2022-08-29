@@ -3,9 +3,7 @@ import java.util.Scanner;
 /*
  * 1- WAP to accept 12 numbers in a 3*4 array and print the 
  *    values column-wise.
- *    
- *    Seky Perez Moya 219-5412.
- */
+*/
 
 public class ArrayPrintColumn {
 
