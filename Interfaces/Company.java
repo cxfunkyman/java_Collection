@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 /*
- * Seky Perez Moya 219-5412
- * 
  * Create 3 interfaces for a personnel, and in each one make an abstract method. 
  * First interface for his personal info having its abstract method to accept 3 
  * parameters: name, age, location, and returning these info through an string 
