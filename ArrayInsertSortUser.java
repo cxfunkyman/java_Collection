@@ -80,32 +80,3 @@ public class ArrayInsertSortUser {
 		}
 	}
 }
-
-//import java.util.Scanner;
-//public class A { //insertion sort
-//    public static void main(String[] args) {
-//        int a[],n,i,j,temp;
-//        Scanner in=new Scanner(System.in);
-//        a=new int[10];
-//        for(i=0;i<10;i++) {
-//            System.out.print("Enter the number: ");
-//            n=in.nextInt();
-//            if(i==0)a[i]=n;
-//            else if(n<=a[0]){
-//                for(j=i;j>0;j--)
-//						a[j]=a[j-1];//shifting the array to right
-//                a[j]=n;
-//                }
-//            else if(n>=a[i-1])a[i]=n;
-//            else{
-//                for(j=0;j<i;j++){
-//                    if(n>=a[j] && n<a[j+1])break;
-//                }
-//                for(int z=i;z>j;z--)a[z]=a[z-1];//shifting the array to right
-//                a[j+1]=n;
-//            }
-//        for(int z=0;z<10;z++)System.out.print(a[z]+ " ");
-//        }
-//    }
-//}
-
