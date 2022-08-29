@@ -2,8 +2,6 @@ package Exams;
 
 import java.util.Scanner;
 
-//Seky Emil Perez Moya 219-5412
-
 class Nodes { 
 	String data;
 	Nodes next; 
