@@ -77,23 +77,3 @@ public class ArrayInsertFirst {
 		}
 	}
 }
-
-//import java.util.Scanner;
-//public class A {//at the beginning
-//  public static void main(String[] args) {
-//      Scanner h=new Scanner(System.in);
-//      int a[]=new int[20],i;
-//      System.out.println("How many numbers to enter? ");
-//      int n=h.nextInt();
-//      for(i=0;i<n;i++) {
-//          System.out.print("Enter the " + (i+1) +" number");
-//          a[i]=h.nextInt();
-//          }
-//      for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//      System.out.println("\nWhich number to insert? ");
-//      int m=h.nextInt();
-//      for(i=n;i>0;i--)a[i]=a[i-1]; //shifting the array to right
-//      a[0]=m;
-//      for(i=0;i<n+1;i++)System.out.print(a[i] + ",");
-//      }
-//}
