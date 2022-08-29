@@ -77,11 +77,11 @@ public class DeleteNode {
 		Random numb = new Random();		
 
 		System.out.println("Welcome.");
-//		System.out.println("please enter 10 digits\n");
-//		for (int i = 0; i < 10; i++) {
-//		System.out.print((i + 1) + " - number: ");
-//		node = a.insert(node, myScanner.nextInt());
-//	}
+		System.out.println("please enter 10 digits\n");
+		for (int i = 0; i < 10; i++) {
+		System.out.print((i + 1) + " - number: ");
+		node = a.insert(node, myScanner.nextInt());
+	}
 		for(int i = 0; i < 10; i++) 
 			node = a.insert(node, numb.nextInt(99));
 		a.inOder(node);
@@ -94,7 +94,7 @@ public class DeleteNode {
         	System.out.println("\nValue deleted.");
 
 
-//		System.out.println();
-//		a.inOder(node);
+		System.out.println();
+		a.inOder(node);
 	}
 }
