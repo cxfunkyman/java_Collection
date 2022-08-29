@@ -22,20 +22,6 @@ public class DuplicateStrings {
 		ArrayList<String> arrString = new ArrayList<>();
 		boolean flag = true;
 		
-//		arrString.add("seky");
-//		arrString.add("ana");//
-//		arrString.add("king");//
-//		arrString.add("queen");
-//		arrString.add("play");
-//		arrString.add("king");//
-//		arrString.add("world");
-//		arrString.add("java");
-//		arrString.add("ink");//
-//		arrString.add("caro");
-//		arrString.add("ink");//
-//		arrString.add("at");
-//		arrString.add("ana");//
-		
 		while (flag) {
 			System.out.println("Do you want to enter a value. 1- Yes, 2- No.");
 			int input = myScanner.nextInt();
