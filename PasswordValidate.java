@@ -5,8 +5,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /*
- * Seky Emil Perez Moya 219-5412
- * 
  * Create a class PassCheck that receives the username, and password 
  * entered by the user. Program checks for the validity of entered 
  * password through making a user defined exception to be thrown if 
