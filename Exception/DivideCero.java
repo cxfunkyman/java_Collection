@@ -3,8 +3,6 @@ package Exception;
 import java.util.Scanner;
 
 /*
- * Seky Perez Moya 219-5412
- * 
  * Write a program to accept two integers, a and b, 
  * from the user and print the a/b. Using the exception 
  * handling concept, avoid the program termination caused 
