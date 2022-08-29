@@ -84,64 +84,6 @@ public class BubbleSortTryCatch {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //import java.util.InputMismatchException;
 //import java.util.Scanner;
 //
@@ -223,51 +165,6 @@ public class BubbleSortTryCatch {
 //			}
 //		}
 //	}
-//}
-
-//public class A {
-//  public static void main(String args[]) {
-//      int arr[] = {0,1,4,6,8,9,11,13,21,33,55,89,91,95,99,100};
-//      
-//      int x = 0,rep;
-//      int n = arr.length, prev, step, f = 0, f1 = 0;
-//      
-//      step = (int)Math.sqrt(n);
-//      
-//      while(step < n) {
-//          
-//      	if(arr[step] >= x) {
-//          	f = 1;
-//          	break;
-//          	}
-//          
-//      	if(step + (int) Math.sqrt(n < n)
-//          	step += (int)Math.sqrt(n);
-//          
-//      	else {
-//          	f = 2;
-//          	break;
-//          	}
-//          }
-//      
-//      for(prev = step - (int)Math.sqrt(n); step >= prev && f == 1; step--)
-//          
-//      	if(arr[step] == x)
-//              {System.out.println("Found on index " + step);
-//              f1=1;
-//              rep=step;
-//              }
-//
-//      for(prev = step; prev < n && f == 2; prev++)
-//          
-//      	if(arr[prev] == x)
-//              {System.out.println("Found on index " + prev);
-//              f1=1;
-//              rep = prev;}
-//
-//      if(f1 == 0)
-//      	System.out.println("Not Found");
-//   }
 //}
 
 //-------------------------------------------------------------------------------------------------
@@ -425,50 +322,6 @@ public class BubbleSortTryCatch {
 //	}
 //}
 
-
-//import java.util.Scanner;
-//public class A {
-//  public static void main(String[] args) {
-//      String a[]=new String[10],t[]=new String[10],n,m;
-//      int i,j;
-//      Scanner in=new Scanner(System.in);
-//      for(i=0;i<10;i++) {
-//          System.out.print("Enter the name: ");
-//          n=in.nextLine();
-//          if(n.matches("[a-zA-Z]+")==false) //for validation
-//              {i--;System.out.print("Wrong entry. ");continue;}
-//          System.out.print("Enter the number (10 digits): ");
-//          m=in.nextLine();
-//          if(m.matches("[0-9]+")==false||m.length()!=10)  //for validation
-//              {i--;System.out.print("Wrong entry. ");continue;}
-//          if(i==0) {
-//                  a[i]=n;t[i]=m;
-//              }
-//          else if(n.compareTo(a[0])<=0){
-//                  for(j=i;j>0;j--) {
-//                      a[j]=a[j-1];t[j]=t[j-1];
-//                      }
-//                  a[j]=n;t[j]=m;
-//              }
-//          else if(n.compareTo(a[i-1])>=0) {
-//                  a[i]=n;t[i]=m;
-//              }
-//          else{
-//              for(j=0;j<i;j++){
-//                 if(n.compareTo(a[j])>=0 && n.compareTo(a[j+1])<0)break;
-//                  }
-//                  for(int z=i;z>j;z--) {
-//                      a[z]=a[z-1];t[z]=t[z-1];
-//                      }
-//                      a[j+1]=n;t[j+1]=m;
-//                  }
-//          }
-//          for(int z=0;z<10;z++){
-//              System.out.print(a[z]+ " ");System.out.print(t[z]+ "\n");
-//          }
-//  }
-//}
-
 //---------------------------------------------------------------------------------------------------------
 
 //import java.util.InputMismatchException;
@@ -484,7 +337,7 @@ public class BubbleSortTryCatch {
 //
 //	public static void main(String[] args) {
 //		
-//		String[] a = {"leo", "seky", "petar", "winston", "alex", "ray", "jean", "basil", "tyler", "emil"};
+//		String[] a = {"leo", "sky", "petar", "winston", "alex", "ray", "jean", "basil", "tyler", "emil"};
 //		int n = a.length;
 //		
 //		for (int i = 0; i < a.length; i++) {
@@ -647,7 +500,7 @@ public class BubbleSortTryCatch {
 //	public static void main(String[] args) {
 //		Arrange c = new Arrange();
 //
-//		String[] a = {"leo", "seky", "wally", "alex", "petar", "seky", "wally", "alex", "seky", "ray", "jean", "alex", "basil", "tyler", "seky", "emil"};
+//		String[] a = {"leo", "sky", "wally", "alex", "petar", "sky", "wally", "alex", "sky", "ray", "jean", "alex", "basil", "tyler", "sky", "emil"};
 //
 //		c.sortword(a);
 //		
@@ -814,32 +667,6 @@ public class BubbleSortTryCatch {
 //	}
 //}
 
-//import java.util.Scanner;
-//public class A {
-//public static void main(String[] args) {
-//    Scanner h=new Scanner(System.in);
-//    int a[]=new int[20],i;
-//    System.out.println("How many numbers to enter? ");
-//    int n=h.nextInt();
-//    for(i=0;i<n;i++) {
-//        System.out.print("Enter the " + (i+1) +" number");
-//        a[i]=h.nextInt();
-//        }
-//    for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//    System.out.println("\nWhich number to delete? ");
-//    int m=h.nextInt();
-//    for(i=0;i<n;i++) {
-//        if(a[i]==m) {
-//            for(int j=i;j<n;j++) a[j]=a[j+1];
-//            n--;//after deletion number of elements decrease by one
-//            i--;//after deletion we have to check from same i again
-//        }
-//    }
-//    for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//    }
-//}
-
-
 //-----------------------------------------------------------------------------
 
 
@@ -922,38 +749,7 @@ public class BubbleSortTryCatch {
 //	}
 //}
 
-//import java.util.Scanner;
-//public class A {
-//public static void main(String[] args) {
-//    Scanner h=new Scanner(System.in);
-//    int a[]=new int[20],i;
-//    System.out.println("How many numbers to enter? ");
-//    int n=h.nextInt();
-//    for(i=0;i<n;i++) {
-//        System.out.print("Enter the " + (i+1) +" number");
-//        a[i]=h.nextInt();
-//        }
-//    for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//    System.out.println("\nWhich number to delete? ");
-//    int m=h.nextInt(),r=0;
-//    for(i=0;i<n;i++) {
-//        if(a[i]==m) {
-//            r++;
-//            if(r>1){
-//                for(int j=i;j<n;j++) a[j]=a[j+1];
-//                n--;//after deletion number of elements decrease by one
-//                i--;//after deletion we have to check from same i again
-//            }
-//        }
-//    }
-//    for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//    }
-//}
-
-
-
 //---------------------------------------------------------------------------------
-
 
 //import java.util.InputMismatchException;
 //import java.util.Scanner;
@@ -1035,36 +831,6 @@ public class BubbleSortTryCatch {
 //			}
 //		}
 //	}
-//}
-
-//import java.util.Scanner;
-//public class A {
-//public static void main(String[] args) {
-//    Scanner h = new Scanner(System.in);
-//    int a[] = new int[20],i;
-//    System.out.println("How many numbers to enter? ");
-//    int n = h.nextInt();
-//    for(i = 0; i < n; i++) {
-//        System.out.print("Enter the " + (i+1) +" number");
-//        a[i] = h.nextInt();
-//        }
-//    for(i = 0; i < n; i++) System.out.print(a[i] + ",");
-//    for(int v = 0; v < n; v++) {
-//        int m = a[v], r = 0;
-//        for(i = 0; i < n; i++) {
-//            if(a[i] == m) {
-//                r++;
-//                if(r > 1){
-//                    for(int j = i; j < n; j++) a[j] = a[j+1];
-//                    n--;//after deletion number of elements decrease by one
-//                    i--;//after deletion we have to check from same i again
-//                }
-//            }
-//        }
-//    }
-//    System.out.println();
-//    for(i = 0; i < n; i++)System.out.print(a[i] + ",");
-//    }
 //}
 
 //--------------------------------------------------------------------------------------
@@ -1409,26 +1175,6 @@ Array values after their shifting:   -12,-42,-66,-20,-23,2,0,67,54,55,
 //			}
 //		}
 //	}
-//}
-
-//import java.util.Scanner;
-//public class A {//at the beginning
-//public static void main(String[] args) {
-//    Scanner h=new Scanner(System.in);
-//    int a[]=new int[20],i;
-//    System.out.println("How many numbers to enter? ");
-//    int n=h.nextInt();
-//    for(i=0;i<n;i++) {
-//        System.out.print("Enter the " + (i+1) +" number");
-//        a[i]=h.nextInt();
-//        }
-//    for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//    System.out.println("\nWhich number to insert? ");
-//    int m=h.nextInt();
-//    for(i=n;i>0;i--)a[i]=a[i-1]; //shifting the array to right
-//    a[0]=m;
-//    for(i=0;i<n+1;i++)System.out.print(a[i] + ",");
-//    }
 //}
 
 //--------------------------------------------------------------------------------------------------
