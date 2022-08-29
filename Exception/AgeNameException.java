@@ -5,8 +5,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /*
- * Seky Perez Moya 219-5412
- * 
  * Create a class Student with attributes roll no, name, 
  * age, and course. Initialize values through a parameterized 
  * constructor. If the age of the student is not between 15 
