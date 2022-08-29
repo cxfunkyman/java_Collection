@@ -79,31 +79,3 @@ public class ArrayDelAllOcuNotFirst {
 		}
 	}
 }
-
-//import java.util.Scanner;
-//public class A {
-//  public static void main(String[] args) {
-//      Scanner h=new Scanner(System.in);
-//      int a[]=new int[20],i;
-//      System.out.println("How many numbers to enter? ");
-//      int n=h.nextInt();
-//      for(i=0;i<n;i++) {
-//          System.out.print("Enter the " + (i+1) +" number");
-//          a[i]=h.nextInt();
-//          }
-//      for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//      System.out.println("\nWhich number to delete? ");
-//      int m=h.nextInt(),r=0;
-//      for(i=0;i<n;i++) {
-//          if(a[i]==m) {
-//              r++;
-//              if(r>1){
-//                  for(int j=i;j<n;j++) a[j]=a[j+1];
-//                  n--;//after deletion number of elements decrease by one
-//                  i--;//after deletion we have to check from same i again
-//              }
-//          }
-//      }
-//      for(i=0;i<n;i++)System.out.print(a[i] + ",");
-//      }
-//}
